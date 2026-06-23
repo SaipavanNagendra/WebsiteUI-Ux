@@ -36,8 +36,8 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link href="/" className="text-3xl font-bold">
-          <span className="text-cyan-400">Nova</span>
-          <span className="text-white">Tech</span>
+          <span className="text-cyan-400">DipVision</span>
+          <span className="text-white">InfoTech</span>
         </Link>
 
         <nav className="hidden md:flex gap-10 items-center">
