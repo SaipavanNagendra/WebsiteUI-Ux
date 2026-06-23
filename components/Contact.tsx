@@ -60,7 +60,7 @@ export default function Contact() {
             Get In Touch
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Have a project in mind? Let's talk about how we can help you succeed
+            Have a project in mind? Lets talk about how we can help you succeed
           </p>
         </motion.div>
 

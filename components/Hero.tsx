@@ -72,13 +72,27 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white px-8 py-3 rounded-lg font-semibold flex items-center gap-2 transition-all">
-                Explore Services
-                <ArrowRight size={20} />
-              </button>
-              <button className="border-2 border-cyan-500 text-cyan-400 hover:bg-cyan-500/10 px-8 py-3 rounded-lg font-semibold transition-all">
-                Get in Touch
-              </button>
+              <button
+  onClick={() =>
+    document
+      .getElementById("services")
+      ?.scrollIntoView({ behavior: "smooth" })
+  }
+  className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white px-8 py-3 rounded-lg font-semibold flex items-center gap-2 transition-all"
+>
+  Explore Services
+  <ArrowRight size={20} />
+</button>
+             <button
+  onClick={() =>
+    document
+      .getElementById("contact")
+      ?.scrollIntoView({ behavior: "smooth" })
+  }
+  className="border-2 border-cyan-500 text-cyan-400 hover:bg-cyan-500/10 px-8 py-3 rounded-lg font-semibold transition-all"
+>
+  Get in Touch
+</button>
             </div>
           </motion.div>
 

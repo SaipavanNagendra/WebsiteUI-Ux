@@ -69,3 +69,11 @@ section{
 ::-webkit-scrollbar-track{
   background:#050816;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}

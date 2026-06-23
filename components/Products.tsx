@@ -44,7 +44,7 @@ export default function Products() {
             Our Products
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Innovative solutions we've built to solve real-world business challenges
+            Innovative solutions we have built to solve real-world business challenges
           </p>
         </motion.div>
 
